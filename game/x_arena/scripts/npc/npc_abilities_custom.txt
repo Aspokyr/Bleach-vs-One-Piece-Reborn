@@ -9267,7 +9267,7 @@
 		"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"AbilityUnitTargetFlags"				"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
-		"AbilityUnitDamageType"					"DAMAGE_TYPE_PHYSICAL"
+		"AbilityUnitDamageType"					"DAMAGE_TYPE_MAGICAL"
 		"AOERadius"								"650"
 
 		"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
@@ -9290,6 +9290,11 @@
 			{
 				"var_type"						"FIELD_INTEGER"
 				"damage"						"500 700 900 1100 1300"
+			}
+			"02"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"str_multi"						"8 9 10 11 12"
 			}
 		}
 
@@ -16189,6 +16194,14 @@
 		"AbilityCastAnimation"			"ACT_DOTA_ATTACK2"
 		"AbilityCooldown"				"80.0 75.0 70.0 65.0 60.0"
 		"AbilityManaCost"				"300"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"agi_multi"						"8 9 10 11 12"
+			}
+		}
 
 		"OnSpellStart"
 		{
@@ -16252,6 +16265,14 @@
 		"AbilityCastAnimation"			"ACT_DOTA_ATTACK2"
 		"AbilityCooldown"				"80.0 75.0 70.0 65.0 60.0"
 		"AbilityManaCost"				"300"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"						"FIELD_INTEGER"
+				"agi_multi"						"8 9 10 11 12"
+			}
+		}
 	}
 
 	"bvo_sanji_skill_5"
@@ -21340,7 +21361,7 @@
 		"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"AbilityUnitTargetFlags"				"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
-		"AbilityUnitDamageType"					"DAMAGE_TYPE_PHYSICAL"
+		"AbilityUnitDamageType"					"DAMAGE_TYPE_MAGICAL"
 		"AOERadius"								"%radius"
 
 		"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
@@ -21701,7 +21722,7 @@
 		"AbilityUnitTargetTeam"					"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"					"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"AbilityUnitTargetFlags"				"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
-		"AbilityUnitDamageType"					"DAMAGE_TYPE_PHYSICAL"
+		"AbilityUnitDamageType"					"DAMAGE_TYPE_MAGICAL"
 		"AOERadius"								"600"
 
 		"AbilityType"							"DOTA_ABILITY_TYPE_BASIC"
@@ -21722,8 +21743,8 @@
 		{
 			"01"
 			{
-				"var_type"						"FIELD_INTEGER"
-				"int_multi"						"8 9 10 11 12"
+				"var_type"						"FIELD_FLOAT"
+				"int_multi"						"6 6.75 7.5 8.25 9"
 			}
 			"02"
 			{
